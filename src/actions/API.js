@@ -1,0 +1,19 @@
+const baseURL = 'https://apitest.grabscoin.net/v2/';
+
+export const USER_DATA = baseURL + 'scoinusers/userid/listAll'//works
+export const LOGIN = baseURL + 'scoinusers/userlogin'//send all user details to save
+export const REGISTER = baseURL + 'scoinusers'//works
+export const USER_PROFILE = baseURL + 'scoinusers/userid/userProfile'//works
+export const SEND_OTP = baseURL + 'scoinpins/send'//works
+export const VERIFY_OTP = baseURL + 'scoinpins/verify'//works
+export const GET_TRANSFER = baseURL + 'scoinapps/userid/transfers'//Network Request Failed with test account
+export const CHANGE_PASSWORD = baseURL + 'scoinusers/userid/changePassword'//works
+export const FOROGT_PASSWORD = baseURL + 'scoinusers/forgotPassword'//works
+export const CHANGE_PIN = baseURL + 'scoinusers/userid/changePin'//works
+export const FUNDING_SOURCE = baseURL + 'scoinusers/userid/fundingsources'//not yet
+export const FIND_USER = baseURL + 'scoinusers/findScoinUser'//not yet
+export const USER_TRANSFER = baseURL + 'scoinapps/userid/usertransfer'
+export const STORE_QR_TOKEN = baseURL + 'scoinapps/userid/storeQrToken'
+export const CONTACT_US = baseURL + 'scoinapps/emailSupport'
+export const VERIFY_PIN = baseURL + 'scoinapps/userid/verify'
+export const FIND_STORE = baseURL + 'scoinapps/findStores'
